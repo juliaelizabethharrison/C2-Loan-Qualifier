@@ -1,0 +1,14 @@
+    1  conda activate dev
+    2* conda info --envs
+    3  conda create -n dev python=3.8
+    4  conda create -n dev python=3.8 anaconda
+    5  conda activate dev
+    6  pip install fire
+    7  pip install questionary
+    8  python app.py
+    9  python app.py
+   10  python app.py
+   11  git add *
+   12  git commit -m "added final version of loan qualifier"
+   13  git push
+   14  history 50 > terminal_history.txt
